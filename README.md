@@ -12,6 +12,12 @@ Certification script
 
 The [certification script](http://www.stata.com/help.cgi?cscript) of `readreplace` is [`cscript/readreplace.do`](/cscript/readreplace.do). If you are new to certification scripts, you may find [this](http://www.stata-journal.com/sjpdf.html?articlenum=pr0001) Stata Journal article helpful. See [this guide](/cscript/Tests.md) for more on `readreplace` testing.
 
+Installation
+---------------
+```
+net install readreplace, all replace from(https://raw.githubusercontent.com/ARCED-Foundation/readreplace/master)
+```
+
 Stata help file
 ---------------
 
