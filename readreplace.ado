@@ -441,7 +441,7 @@ void st_promote_type(`SS' var, `TM' X)
 	}
 }
 
-`SR' st_sortlist()
+`SR' st_sortlistx()
 {
 	stata("qui d, varl")
 	return(tokens(st_global("r(sortlist)")))
@@ -562,7 +562,7 @@ void readreplace(
 	// Save the replacements file.
 
 	// Check that the dataset is sorted by the variable name variable.
-	sortlist = st_sortlist()
+	sortlist = st_sortlistx()
 	assert(length(sortlist))
 	assert(sortlist[1] == st_local(_variable))
 
