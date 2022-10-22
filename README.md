@@ -7,6 +7,8 @@ The list of differences saved by the SSC program [`cfout`](https://github.com/Po
 
 `readreplace` is available through SSC: type `ssc install cfout` in Stata to install.
 
+ARCED's modification: Fix for Stata 17. Stata program to make replacements specified in an external dataset
+
 Certification script
 --------------------
 
